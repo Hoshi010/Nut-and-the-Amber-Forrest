@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
     // atualiza o jogo cada frame
     void Update()
     {
-        direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        direction = new Vector2(Input.GetAxisRaw("Horizontal"));
     }
 
     private void FixedUpdate()
