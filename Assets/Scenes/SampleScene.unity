@@ -814,7 +814,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b9a7ab13182c7943b20997d6c6c3e04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  walkSpeed: 6
+  runSpeed: 10
+  jumpForce: 12
+  doubleJumpForce: 10
+  extraJumps: 1
+  wallJumpForce: {x: 8, y: 12}
+  wallJumpControlLock: 0.15
+  glideFallSpeed: 1.5
+  nutPrefab: {fileID: 4290193621969156844, guid: 46a6cdaabba1a6e48987f3c2352cf850, type: 3}
+  throwPoint: {fileID: 0}
+  throwVelocity: {x: 12, y: 2}
+  throwCooldown: 0.3
 --- !u!222 &920813303
 CanvasRenderer:
   m_ObjectHideFlags: 0
